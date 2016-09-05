@@ -11,17 +11,16 @@
 	</head>
 
 	<body>
-
+		<div id="react-container"></div>
 		<script type="text/babel">
-			var HelloWorld = React.createClass({
+			var MyComponent = React.createClass({
 					render: function() {
 						return <div>
-							<h1>Hello World</h1>
-							<p>This is some text</p>
+							My Component
 						</div>
 					}
 			});
-			ReactDOM.render(<HelloWorld />, document.body);
+			ReactDOM.render(<div><MyComponent /><MyComponent /><MyComponent /></div>, document.getElementById('react-container'));
 			console.log("testing");
 		</script>
 	</body>
