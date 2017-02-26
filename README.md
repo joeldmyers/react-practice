@@ -1,2 +1,2 @@
-# react-practice
-Practice to get up to speed on React.js
+# react-review
+Reviwing some aspects of React.js
